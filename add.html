@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Data</title>
+    <link rel="stylesheet" href="/static/mycss.css">
+</head>
+<body>
+<div class="header">
+    <div class="headerright">
+            <a href="home">HOME PAGE</a>
+            <a href="data">ADD DATA</a>
+            <a href="confirmation">CONFIRMATION</a>
+            <a href="search">SEARCH</a>
+            <a href="login">LOGIN</a>
+    </div>
+    <div class="headerleft">
+        LOGO
+    </div>
+</div>
+    <div class="content">
+            <form action="/add" method="post">
+                <label for="Product_id">Product_id</label>
+                <input type="text" name="Product_id" id="Product_id" value="0"><br>
+                <label for="Name">Name</label>
+                <input type="text" name="Name" id="Name" value="product"><br>
+                <label for="UnitMeasure_id">UnitMeasure_id</label>
+                <input type="text" name="UnitMeasure_id" id="UnitMeasure_id" value="0"><br>
+                <label for="Price_Per_Unit">Price_Per_Unit</label>
+                <input for="Price_Per_Unit" name="Price_Per_Unit" id="Price_Per_Unit" value="0"><br>
+                <input type="submit" value="submit">
+            </form>
+     </div>
+    <div class="footer">
+        <div class="footerright">
+            <a href="contact">Contact us<a/>
+        </div>
+    </div>
+</body>
+</html>
