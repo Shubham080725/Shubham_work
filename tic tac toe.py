@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan  5 16:27:14 2022
-
-@author: RIYA
-"""
-
 import tkinter as tk
 from tkinter import *
 
